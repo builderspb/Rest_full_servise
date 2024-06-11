@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FirstRestApp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ed5c576-e15f-4ae3-9eca-c915c03a69a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/controller/FirstRestControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/util/UserErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringRestAlishev/FirstRestApp/src/main/java/com/varlamov/springrest/firstRestApp/util/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/cac40011-e850-4f7d-9281-4faaeb68934d/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/cac40011-e850-4f7d-9281-4faaeb68934d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/cac40011-e850-4f7d-9281-4faaeb68934d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/cac40011-e850-4f7d-9281-4faaeb68934d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/configuration/WebInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/controller/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/exception_handling/EmployeeIncorrectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/exception_handling/NoSuchEmployeeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/configuration/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/configuration/WebInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/controller/MyRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/dao/EmployeeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/dao/EmployeeDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/dto/EmployeeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/exception_handling/EmployeeIncorrectData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/exception_handling/NoSuchEmployeeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/mapper/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/configuration/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/configuration/WebInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/controller/MyRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/dao/EmployeeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/dao/EmployeeDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/dto/EmployeeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/exception_handling/EmployeeIncorrectData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/exception_handling/NoSuchEmployeeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/mapper/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/byte-buddy-1.10.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/checker-qual-3.31.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/hibernate-core-5.4.22.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jackson-annotations-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jackson-core-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jackson-databind-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jandex-2.1.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/modelmapper-2.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/postgresql-42.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-jdbc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-orm-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-tx-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring_course_rest/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/src/main/java/com/zaurtregulov/spring/rest/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/src/main/java/com/zaurtregulov/spring/rest/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/src/main/java/com/zaurtregulov/spring/rest/configuration/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/src/main/java/com/zaurtregulov/spring/rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/src/test/java/com/zaurtregulov/spring/rest/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/target/classes/com/zaurtregulov/spring/rest/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/target/classes/com/zaurtregulov/spring/rest/Communication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/target/classes/com/zaurtregulov/spring/rest/Communication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/target/classes/com/zaurtregulov/spring/rest/configuration/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest_client/target/classes/com/zaurtregulov/spring/rest/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Predproject_3/Task6SpringBoot/Task6SpringBoot/src/main/resources/static/q.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Predproject_3/Task6SpringBoot/Task6SpringBoot/src/main/resources/static/image/q.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Predproject_3/Task6SpringBoot/Task6SpringBoot/src/main/resources/templates/user-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Predproject_3/Task6SpringBoot/Task6SpringBoot/src/main/resources/templates/user-info.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2hHSzZaRoAYNyVscHYqzbP5T1Wb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping><databases><list><schema-mapping-item><source-data-source-id>95619432-ae18-43d5-a81c-aa84275e221c</source-data-source-id><source-path>database/\"postgres\"/schema/\"public\"</source-path><target-data-source-id>95619432-ae18-43d5-a81c-aa84275e221c</target-data-source-id><target-path>database/\"postgres\"/schema/\"public\"</target-path></schema-mapping-item></list></databases></schema-mapping>",
+    "last_opened_file_path": "C:/Users/90505/Desktop/ProjectJava/SpringRestTregulov",
+    "spring.configuration.checksum": "bb6172cdb8c886f3cde4d797b0b264d4"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\90505\Desktop\ProjectJava\SpringRestTregulov\FirstRestApp\src\main\java\com\zaurtregulov\spring\rest" />
+      <recent name="C:\Users\90505\Desktop\ProjectJava\SpringRestTregulov\FirstRestApp\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="FirstRestApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="18ddf9b7-4d2e-43f3-a722-80b5eb464fbc" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1301" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FirstRestApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ed5c576-e15f-4ae3-9eca-c915c03a69a1" name="Changes" comment="" />
+      <created>1717249776710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717249776710</updated>
+      <workItem from="1717249778101" duration="6610000" />
+      <workItem from="1717256908696" duration="7374000" />
+      <workItem from="1717400594337" duration="18762000" />
+      <workItem from="1717497946047" duration="7877000" />
+      <workItem from="1717934744516" duration="594000" />
+      <workItem from="1718005043351" duration="10286000" />
+      <workItem from="1718040740466" duration="11544000" />
+      <workItem from="1718052682842" duration="1227000" />
+      <workItem from="1718087421127" duration="13203000" />
+      <workItem from="1718103987185" duration="163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="1629e7">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="1629e7" />
+              <option name="initiateTms" value="1718100681719" />
+              <option name="request" value=" почему если используешь метод saveOrUpdate то время создания обновляется на нал, а если merge, то время сохраняется прежним" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Это поведение связано с тем, как Hibernate и JPA работают с сущностями и их состояниями в контексте персистентности.&#10;&#10;### `saveOrUpdate` (Hibernate)&#10;&#10;Метод `saveOrUpdate` в Hibernate может привести к обновлению всех полей сущности, включая поля, которые вы, возможно, не хотели бы изменять, такие как время создания (`createdAt`). Это происходит потому, что Hibernate рассматривает переданную сущность как новую или обновленную и пытается синхронизировать все её поля с базой данных.&#10;&#10;### `merge` (JPA)&#10;&#10;Метод `merge` в JPA работает несколько иначе. Он берет переданную сущность и копирует её состояние в управляемую сущность, которая уже находится в контексте персистентности. Если сущность с таким же идентификатором уже существует, то её поля будут обновлены значениями из переданной сущности, но только те поля, которые явно изменены. Поля, которые не изменялись, такие как `createdAt`, останутся прежними.&#10;&#10;### Пример&#10;&#10;Рассмотрим пример с сущностью, у которой есть поля `id`, `createdAt` и `updatedAt`.&#10;&#10;#### Hibernate `saveOrUpdate`&#10;&#10;```java&#10;Session session = sessionFactory.openSession();&#10;session.beginTransaction();&#10;&#10;MyEntity entity = new MyEntity();&#10;entity.setId(1L);&#10;entity.setName(&quot;Updated Name&quot;);&#10;// createdAt is not set, it might be null&#10;&#10;session.saveOrUpdate(entity);&#10;&#10;session.getTransaction().commit();&#10;session.close();&#10;```&#10;&#10;В этом случае, если `createdAt` не установлен в переданной сущности, Hibernate может обновить это поле в базе данных значением `null`.&#10;&#10;#### JPA `merge`&#10;&#10;```java&#10;EntityManager em = entityManagerFactory.createEntityManager();&#10;em.getTransaction().begin();&#10;&#10;MyEntity entity = new MyEntity();&#10;entity.setId(1L);&#10;entity.setName(&quot;Updated Name&quot;);&#10;// createdAt is not set, it might be null&#10;&#10;MyEntity mergedEntity = em.merge(entity);&#10;&#10;em.getTransaction().commit();&#10;em.close();&#10;```&#10;&#10;В этом случае, если `createdAt` уже существует в базе данных для сущности с `id = 1L`, то это значение будет сохранено, потому что `merge` обновляет только измененные поля.&#10;&#10;### Решение проблемы с `saveOrUpdate`&#10;&#10;Чтобы избежать обновления поля `createdAt` на `null` при использовании `saveOrUpdate`, вы можете явно установить это поле перед вызовом метода:&#10;&#10;```java&#10;Session session = sessionFactory.openSession();&#10;session.beginTransaction();&#10;&#10;MyEntity entity = session.get(MyEntity.class, 1L);&#10;if (entity != null) {&#10;    entity.setName(&quot;Updated Name&quot;);&#10;    entity.setUpdatedAt(LocalDateTime.now());&#10;    session.saveOrUpdate(entity);&#10;}&#10;&#10;session.getTransaction().commit();&#10;session.close();&#10;```&#10;&#10;В этом примере мы сначала загружаем сущность из базы данных, чтобы получить текущее значение `createdAt`, а затем обновляем только необходимые поля.&#10;&#10;### Заключение&#10;&#10;Различие в поведении методов `saveOrUpdate` и `merge` связано с тем, как они работают с состояниями сущностей. `saveOrUpdate` может привести к обновлению всех полей, включая те, которые вы не хотите изменять, тогда как `merge` обновляет только измененные поля, сохраняя остальные без изменений." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718100750095" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="168acf">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="168acf" />
+              <option name="initiateTms" value="1718101140547" />
+              <option name="request" value=" при таком методе, после обновления записи, дата создания равняется налл, не смотря на использования метода merge" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Понял, проблема может возникать из-за того, что при вызове `merge` JPA может не учитывать значение `createdAt`, если оно не установлено в переданной сущности. Давайте рассмотрим более надежный способ, чтобы гарантировать, что `createdAt` сохраняется при обновлении сущности.&#10;&#10;### Решение&#10;&#10;Мы можем использовать метод `@PrePersist` и `@PreUpdate` в JPA для автоматического управления полями `createdAt` и `updatedAt`. Эти методы будут автоматически вызываться при сохранении и обновлении сущности.&#10;&#10;### Пример&#10;&#10;1. **Добавьте аннотации `@PrePersist` и `@PreUpdate` в сущность `Employee`:**&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        createdAt = LocalDateTime.now();&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;}&#10;```&#10;&#10;2. **Обновите метод `enrichEmployee` для установки только `updatedAt`:**&#10;&#10;```java&#10;private void enrichEmployee(Employee employee) {&#10;    if (employee.getId() != 0) {&#10;        employee.setUpdatedAt(LocalDateTime.now());&#10;    }&#10;}&#10;```&#10;&#10;3. **Используйте метод `merge` в `saveOrUpdateEmployee`:**&#10;&#10;```java&#10;@Override&#10;@Transactional&#10;public void saveOrUpdateEmployee(Employee employee) {&#10;    enrichEmployee(employee);&#10;    entityManager.merge(employee);&#10;}&#10;```&#10;&#10;### Полный пример&#10;&#10;Вот как будет выглядеть полный класс `EmployeeServiceImpl` и сущность `Employee` после рефакторинга:&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        createdAt = LocalDateTime.now();&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Класс `EmployeeServiceImpl`&#10;&#10;```java&#10;package com.zaurtregulov.spring.rest.service;&#10;&#10;import com.zaurtregulov.spring.rest.dao.EmployeeDAO;&#10;import com.zaurtregulov.spring.rest.entity.Employee;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.transaction.annotation.Transactional;&#10;&#10;import javax.persistence.EntityManager;&#10;import java.time.LocalDateTime;&#10;import java.util.List;&#10;&#10;@Service&#10;@Transactional(readOnly = true)&#10;public class EmployeeServiceImpl implements EmployeeService {&#10;&#10;    private final EmployeeDAO employeeDAO;&#10;    private final EntityManager entityManager;&#10;&#10;    @Autowired&#10;    public EmployeeServiceImpl(EmployeeDAO employeeDAO, EntityManager entityManager) {&#10;        this.employeeDAO = employeeDAO;&#10;        this.entityManager = entityManager;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;Employee&gt; getAllEmployees() {&#10;        return employeeDAO.getAllEmployees();&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void saveOrUpdateEmployee(Employee employee) {&#10;        enrichEmployee(employee);&#10;        entityManager.merge(employee);&#10;    }&#10;&#10;    @Override&#10;    public Employee getEmployee(int id) {&#10;        return employeeDAO.getEmployee(id);&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void deleteEmployee(int id) {&#10;        employeeDAO.deleteEmployee(id);&#10;    }&#10;&#10;    private void enrichEmployee(Employee employee) {&#10;        if (employee.getId() != 0) {&#10;            employee.setUpdatedAt(LocalDateTime.now());&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;### Заключение&#10;&#10;Использование аннотаций `@PrePersist` и `@PreUpdate` позволяет автоматически управлять полями `createdAt` и `updatedAt`, что упрощает код и устраняет необходимость вручную устанавливать эти значения в методе `enrichEmployee`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718101198486" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="16937a">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/entity/Employee.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dao/EmployeeDAO.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeService.java" />
+                </list>
+              </option>
+              <option name="id" value="16937a" />
+              <option name="initiateTms" value="1718100819498" />
+              <option name="request" value=" значит при использовании мерч, этот медод можно отрефакторить private void enrichEmployee(Employee employee) {&#10;        LocalDateTime currentTime = LocalDateTime.now();&#10;        if (employee.getId() == 0) {&#10;            employee.setCreatedAt(currentTime);&#10;            employee.setUpdateAt(null);&#10;        } else {&#10;            // Получаем существующую запись из базы данных&#10;            Employee existingEmployee = employeeDAO.getEmployee(employee.getId());&#10;            if (existingEmployee != null) {&#10;                // Сохраняем прежнее значение createdAt&#10;                employee.setCreatedAt(existingEmployee.getCreatedAt());&#10;            }&#10;            // Обновляем дату обновления&#10;            employee.setUpdateAt(currentTime);&#10;        }&#10;    }" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Да, если вы используете метод `merge` для сохранения или обновления сущностей, то метод `enrichEmployee` можно упростить. Поскольку `merge` автоматически сохраняет прежние значения полей, которые не были изменены, вам не нужно вручную извлекать существующую запись из базы данных для сохранения значения `createdAt`.&#10;&#10;Вот как можно отрефакторить метод `enrichEmployee`:&#10;&#10;```java&#10;private void enrichEmployee(Employee employee) {&#10;    LocalDateTime currentTime = LocalDateTime.now();&#10;    if (employee.getId() == 0) {&#10;        employee.setCreatedAt(currentTime);&#10;        employee.setUpdateAt(null);&#10;    } else {&#10;        // Обновляем дату обновления&#10;        employee.setUpdateAt(currentTime);&#10;    }&#10;}&#10;```&#10;&#10;Теперь метод `enrichEmployee` просто устанавливает `createdAt` для новых сущностей и обновляет `updateAt` для всех сущностей. Метод `merge` позаботится о сохранении прежнего значения `createdAt` для существующих сущностей.&#10;&#10;### Пример использования `merge` в `saveOrUpdateEmployee`&#10;&#10;Также убедитесь, что вы используете метод `merge` в методе `saveOrUpdateEmployee`:&#10;&#10;```java&#10;@Override&#10;@Transactional&#10;public void saveOrUpdateEmployee(Employee employee) {&#10;    enrichEmployee(employee);&#10;    entityManager.merge(employee); // Используем merge вместо saveOrUpdate&#10;}&#10;```&#10;&#10;### Полный пример&#10;&#10;Вот как будет выглядеть полный класс `EmployeeServiceImpl` после рефакторинга:&#10;&#10;```java&#10;package com.zaurtregulov.spring.rest.service;&#10;&#10;import com.zaurtregulov.spring.rest.dao.EmployeeDAO;&#10;import com.zaurtregulov.spring.rest.entity.Employee;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.transaction.annotation.Transactional;&#10;&#10;import javax.persistence.EntityManager;&#10;import java.time.LocalDateTime;&#10;import java.util.List;&#10;&#10;@Service&#10;@Transactional(readOnly = true)&#10;public class EmployeeServiceImpl implements EmployeeService {&#10;&#10;    private final EmployeeDAO employeeDAO;&#10;    private final EntityManager entityManager;&#10;&#10;    @Autowired&#10;    public EmployeeServiceImpl(EmployeeDAO employeeDAO, EntityManager entityManager) {&#10;        this.employeeDAO = employeeDAO;&#10;        this.entityManager = entityManager;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;Employee&gt; getAllEmployees() {&#10;        return employeeDAO.getAllEmployees();&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void saveOrUpdateEmployee(Employee employee) {&#10;        enrichEmployee(employee);&#10;        entityManager.merge(employee); // Используем merge вместо saveOrUpdate&#10;    }&#10;&#10;    @Override&#10;    public Employee getEmployee(int id) {&#10;        return employeeDAO.getEmployee(id);&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void deleteEmployee(int id) {&#10;        employeeDAO.deleteEmployee(id);&#10;    }&#10;&#10;    private void enrichEmployee(Employee employee) {&#10;        LocalDateTime currentTime = LocalDateTime.now();&#10;        if (employee.getId() == 0) {&#10;            employee.setCreatedAt(currentTime);&#10;            employee.setUpdateAt(null);&#10;        } else {&#10;            // Обновляем дату обновления&#10;            employee.setUpdateAt(currentTime);&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;Теперь ваш код будет более чистым и эффективным, используя возможности метода `merge` для сохранения прежних значений полей." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718100834392" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dao/EmployeeDAO.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/entity/Employee.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="40553a">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="40553a" />
+              <option name="initiateTms" value="1718101357239" />
+              <option name="request" value=" я вообще не использую это поле в дто" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Если вы не используете поле `createdAt` в DTO, то это может быть причиной того, что значение `createdAt` теряется при обновлении сущности. В этом случае, при маппинге из DTO в сущность, значение `createdAt` может быть установлено в `null`, что приведет к его перезаписи при вызове `merge`.&#10;&#10;### Решение&#10;&#10;1. **Добавьте поле `createdAt` в DTO, если оно необходимо для корректного маппинга.**&#10;2. **Убедитесь, что значение `createdAt` правильно маппируется из сущности в DTO и обратно.**&#10;3. **Используйте аннотации `@PrePersist` и `@PreUpdate` для автоматического управления полями `createdAt` и `updatedAt`.**&#10;&#10;### Пример&#10;&#10;#### DTO класс&#10;&#10;Если вы решите добавить поле `createdAt` в DTO:&#10;&#10;```java&#10;public class EmployeeDTO {&#10;    private int id;&#10;    private String name;&#10;    private LocalDateTime createdAt;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Маппинг из DTO в сущность&#10;&#10;Используйте метод для маппинга значений из DTO в сущность:&#10;&#10;```java&#10;public Employee toEntity(EmployeeDTO dto) {&#10;    Employee employee = new Employee();&#10;    employee.setId(dto.getId());&#10;    employee.setName(dto.getName());&#10;    employee.setCreatedAt(dto.getCreatedAt());&#10;    employee.setUpdatedAt(dto.getUpdatedAt());&#10;    return employee;&#10;}&#10;```&#10;&#10;#### Маппинг из сущности в DTO&#10;&#10;```java&#10;public EmployeeDTO toDTO(Employee employee) {&#10;    EmployeeDTO dto = new EmployeeDTO();&#10;    dto.setId(employee.getId());&#10;    dto.setName(employee.getName());&#10;    dto.setCreatedAt(employee.getCreatedAt());&#10;    dto.setUpdatedAt(employee.getUpdatedAt());&#10;    return dto;&#10;}&#10;```&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Обновленный метод `saveOrUpdateEmployee`&#10;&#10;```java&#10;@Override&#10;@Transactional&#10;public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;    Employee employee = toEntity(employeeDTO);&#10;    enrichEmployee(employee);&#10;    entityManager.merge(employee);&#10;}&#10;```&#10;&#10;### Полный пример&#10;&#10;Вот как будет выглядеть полный класс `EmployeeServiceImpl` и сущность `Employee` после рефакторинга:&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Класс `EmployeeServiceImpl`&#10;&#10;```java&#10;package com.zaurtregulov.spring.rest.service;&#10;&#10;import com.zaurtregulov.spring.rest.dao.EmployeeDAO;&#10;import com.zaurtregulov.spring.rest.entity.Employee;&#10;import com.zaurtregulov.spring.rest.dto.EmployeeDTO;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.transaction.annotation.Transactional;&#10;&#10;import javax.persistence.EntityManager;&#10;import java.time.LocalDateTime;&#10;import java.util.List;&#10;&#10;@Service&#10;@Transactional(readOnly = true)&#10;public class EmployeeServiceImpl implements EmployeeService {&#10;&#10;    private final EmployeeDAO employeeDAO;&#10;    private final EntityManager entityManager;&#10;&#10;    @Autowired&#10;    public EmployeeServiceImpl(EmployeeDAO employeeDAO, EntityManager entityManager) {&#10;        this.employeeDAO = employeeDAO;&#10;        this.entityManager = entityManager;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;Employee&gt; getAllEmployees() {&#10;        return employeeDAO.getAllEmployees();&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;        Employee employee = toEntity(employeeDTO);&#10;        enrichEmployee(employee);&#10;        entityManager.merge(employee);&#10;    }&#10;&#10;    @Override&#10;    public Employee getEmployee(int id) {&#10;        return employeeDAO.getEmployee(id);&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void deleteEmployee(int id) {&#10;        employeeDAO.deleteEmployee(id);&#10;    }&#10;&#10;    private void enrichEmployee(Employee employee) {&#10;        if (employee.getId() != 0) {&#10;            employee.setUpdatedAt(LocalDateTime.now());&#10;        }&#10;    }&#10;&#10;    private Employee toEntity(EmployeeDTO dto) {&#10;        Employee employee = new Employee();&#10;        employee.setId(dto.getId());&#10;        employee.setName(dto.getName());&#10;        employee.setCreatedAt(dto.getCreatedAt());&#10;        employee.setUpdatedAt(dto.getUpdatedAt());&#10;        return employee;&#10;    }&#10;&#10;    private EmployeeDTO toDTO(Employee employee) {&#10;        EmployeeDTO dto = new EmployeeDTO();&#10;        dto.setId(employee.getId());&#10;        dto.setName(employee.getName());&#10;        dto.setCreatedAt(employee.getCreatedAt());&#10;        dto.setUpdatedAt(employee.getUpdatedAt());&#10;        return dto;&#10;    }&#10;}&#10;```&#10;&#10;### Заключение&#10;&#10;Добавление поля `createdAt` в DTO и правильный маппинг значений между DTO и сущностью помогут избежать потери данных при вызове `merge`. Использование аннотаций `@PrePersist` и `@PreUpdate` также обеспечит автоматическое управление полями `createdAt` и `updatedAt`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718101388561" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="641456">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="641456" />
+              <option name="initiateTms" value="1718101396941" />
+              <option name="isStopped" value="true" />
+              <option name="request" value=" я не хочу передавать это поле в дто" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Понял, если вы не хотите передавать поле `createdAt` в DTO, то можно решить проблему, сохраняя значение `createdAt` в сущности при обновлении. Для этого можно извлечь существующую сущность из базы данных перед обновлением и сохранить значение `createdAt`.&#10;&#10;### Решение&#10;&#10;1. **Извлеките существующую сущность из базы данных перед обновлением.**&#10;2. **Сохраните значение `createdAt` из существующей сущности.**&#10;3. **Используйте аннотации `@PrePersist` и `@PreUpdate` для автоматического управления полями `createdAt` и `updatedAt`.**&#10;&#10;### Пример&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Обновленный метод `saveOrUpdateEmployee`&#10;&#10;```java&#10;@Override&#10;@Transactional&#10;public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;    Employee employee = toEntity(employeeDTO);&#10;    if (employee.getId() != 0) {&#10;        // Извлекаем существующую сущность из базы данных&#10;        Employee existingEmployee = entityManager.find(Employee.class, employee.getId());&#10;        if (existingEmployee != null) {&#10;            // Сохраняем значение createdAt из существующей сущности&#10;            employee.setCreatedAt(existingEmployee.getCreatedAt());&#10;        }&#10;    }&#10;    enrichEmployee(employee);&#10;    entityManager.merge(employee);&#10;}&#10;```&#10;&#10;### Полный пример&#10;&#10;Вот как будет выглядеть полный класс `EmployeeServiceImpl` и сущность `Employee` после рефакторинга:&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Класс `EmployeeServiceImpl`&#10;&#10;```java&#10;package com.zaurtregulov.spring.rest.service;&#10;&#10;import com.zaurtregulov.spring.rest.dao.EmployeeDAO;&#10;import com.zaurtregulov.spring.rest.entity.Employee;&#10;import com.zaurtregulov.spring.rest.dto.EmployeeDTO;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.transaction.annotation.Transactional;&#10;&#10;import javax.persistence.EntityManager;&#10;import java.time.LocalDateTime;&#10;import java.util.List;&#10;&#10;@Service&#10;@Transactional(readOnly = true)&#10;public class EmployeeServiceImpl implements EmployeeService {&#10;&#10;    private final EmployeeDAO employeeDAO;&#10;    private final EntityManager entityManager;&#10;&#10;    @Autowired&#10;    public EmployeeServiceImpl(EmployeeDAO employeeDAO, EntityManager entityManager) {&#10;        this.employeeDAO = employeeDAO;&#10;        this.entityManager = entityManager;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;Employee&gt; getAllEmployees() {&#10;        return employeeDAO.getAllEmployees();&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;        Employee employee = toEntity(employeeDTO);&#10;        if (employee.getId() != 0) {&#10;            // Извлекаем существующую сущность из базы данных&#10;            Employee existingEmployee = entityManager.find(Employee.class, employee.getId());&#10;            if (existingEmployee != null) {&#10;                // Сохраняем значение createdAt из существующей сущности&#10;                employee.setCreatedAt(existingEmployee.getCreatedAt());&#10;            }&#10;        }&#10;        enrichEmployee(employee);&#10;        entityManager.merge(employee);&#10;    }&#10;&#10;    @Override&#10;    public Employee getEmployee(int id) {&#10;        return employeeDAO.getEmployee(id);&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void deleteEmployee(int id) {&#10;        employeeDAO.deleteEmployee(id);&#10;    }&#10;&#10;    private void enrichEmployee(Employee employee) {&#10;        if (employee.getId() != 0) {&#10;            employee.setUpdatedAt(LocalDateTime.now());&#10;        }&#10;    }&#10;&#10;    private Employee toEntity(EmployeeDTO dto) {&#10;        Employee employee = new Employee();&#10;        employee.setId(dto.getId());&#10;        employee.setName(dto.getName());&#10;        // Поля createdAt и updatedAt не маппируются из DTO&#10;        return employee" />
+              <option name="responseTms" value="1718101454632" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="711efc">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="711efc" />
+              <option name="initiateTms" value="1718101317687" />
+              <option name="isStopped" value="true" />
+              <option name="request" value=" при вызове merge JPA может не учитывать значение createdAt, если оно не установлено в переданной сущности. это происходит из-за использования слоя дто?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Да, использование слоя DTO (Data Transfer Object) может быть причиной того, что значение `createdAt` не сохраняется при вызове `merge`. Когда вы используете DTO для передачи данных между слоями приложения, важно правильно маппировать значения из DTO в сущности, чтобы избежать потери данных.&#10;&#10;### Проблема&#10;&#10;Если вы используете DTO и не маппируете значение `createdAt` из DTO в сущность, то при вызове `merge` это значение может быть потеряно или установлено в `null`.&#10;&#10;### Решение&#10;&#10;1. **Убедитесь, что значение `createdAt` правильно маппируется из DTO в сущность.**&#10;2. **Используйте аннотации `@PrePersist` и `@PreUpdate` для автоматического управления полями `createdAt` и `updatedAt`.**&#10;&#10;### Пример&#10;&#10;#### DTO класс&#10;&#10;```java&#10;public class EmployeeDTO {&#10;    private int id;&#10;    private String name;&#10;    private LocalDateTime createdAt;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Маппинг из DTO в сущность&#10;&#10;Используйте метод для маппинга значений из DTO в сущность:&#10;&#10;```java&#10;public Employee toEntity(EmployeeDTO dto) {&#10;    Employee employee = new Employee();&#10;    employee.setId(dto.getId());&#10;    employee.setName(dto.getName());&#10;    employee.setCreatedAt(dto.getCreatedAt());&#10;    employee.setUpdatedAt(dto.getUpdatedAt());&#10;    return employee;&#10;}&#10;```&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;}&#10;```&#10;&#10;#### Обновленный метод `saveOrUpdateEmployee`&#10;&#10;```java&#10;@Override&#10;@Transactional&#10;public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;    Employee employee = toEntity(employeeDTO);&#10;    enrichEmployee(employee);&#10;    entityManager.merge(employee);&#10;}&#10;```&#10;&#10;### Полный пример&#10;&#10;Вот как будет выглядеть полный класс `EmployeeServiceImpl` и сущность `Employee` после рефакторинга:&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Класс `EmployeeServiceImpl`&#10;&#10;```java&#10;package com.zaurtregulov.spring.rest.service;&#10;&#10;import com.zaurtregulov.spring.rest.dao.EmployeeDAO;&#10;import com.zaurtregulov.spring.rest.entity.Employee;&#10;import com.zaurtregulov.spring.rest.dto.EmployeeDTO;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.transaction.annotation.Transactional;&#10;&#10;import javax.persistence.EntityManager" />
+              <option name="responseTms" value="1718101344734" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="9c4806">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dao/EmployeeDAO.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/entity/Employee.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeService.java" />
+                </list>
+              </option>
+              <option name="id" value="9c4806" />
+              <option name="initiateTms" value="1718101599797" />
+              <option name="request" value=" что делают эти аннотации  @PrePersist&#10;                             protected void onCreate() {&#10;                                 if (createdAt == null) {&#10;                                     createdAt = LocalDateTime.now();&#10;                                 }&#10;                             }&#10;                         &#10;                             @PreUpdate&#10;                             protected void onUpdate() {&#10;                                 updatedAt = LocalDateTime.now();&#10;                             }" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Аннотации `@PrePersist` и `@PreUpdate` в JPA используются для указания методов, которые должны быть вызваны перед выполнением операций сохранения и обновления сущности соответственно. Эти методы позволяют автоматически устанавливать или обновлять значения полей перед выполнением соответствующих операций.&#10;&#10;### Аннотация `@PrePersist`&#10;&#10;Аннотация `@PrePersist` указывает, что метод должен быть вызван перед тем, как новая сущность будет сохранена в базе данных. Это полезно для инициализации значений полей, которые должны быть установлены при создании новой записи.&#10;&#10;#### Пример использования `@PrePersist`&#10;&#10;```java&#10;@PrePersist&#10;protected void onCreate() {&#10;    if (createdAt == null) {&#10;        createdAt = LocalDateTime.now();&#10;    }&#10;}&#10;```&#10;&#10;В этом примере метод `onCreate` будет вызван перед сохранением новой сущности в базе данных. Если поле `createdAt` не установлено (т.е. равно `null`), оно будет установлено в текущее время.&#10;&#10;### Аннотация `@PreUpdate`&#10;&#10;Аннотация `@PreUpdate` указывает, что метод должен быть вызван перед тем, как существующая сущность будет обновлена в базе данных. Это полезно для обновления значений полей, которые должны быть изменены при каждом обновлении записи.&#10;&#10;#### Пример использования `@PreUpdate`&#10;&#10;```java&#10;@PreUpdate&#10;protected void onUpdate() {&#10;    updatedAt = LocalDateTime.now();&#10;}&#10;```&#10;&#10;В этом примере метод `onUpdate` будет вызван перед обновлением существующей сущности в базе данных. Поле `updatedAt` будет установлено в текущее время, что позволяет отслеживать время последнего обновления записи.&#10;&#10;### Полный пример&#10;&#10;Вот как можно использовать эти аннотации в сущности `Employee`:&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;### Заключение&#10;&#10;Аннотации `@PrePersist` и `@PreUpdate` позволяют автоматически устанавливать или обновлять значения полей перед выполнением операций сохранения и обновления сущности. Это помогает гарантировать, что поля, такие как `createdAt` и `updatedAt`, всегда будут иметь корректные значения, соответствующие времени создания и последнего обновления записи." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718101612745" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/dao/EmployeeDAO.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/entity/Employee.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/rest/service/EmployeeServiceImpl.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="a56899">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="a56899" />
+              <option name="initiateTms" value="1718100493678" />
+              <option name="request" value=" отличие методов merge и sefeOrApdate" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="В JPA (Java Persistence API) методы `merge` и `saveOrUpdate` выполняют схожие функции, но они принадлежат разным фреймворкам и имеют свои особенности. Давайте рассмотрим их подробнее:&#10;&#10;### `merge` (JPA)&#10;&#10;Метод `merge` используется в JPA для обновления существующей сущности или сохранения новой. Он работает следующим образом:&#10;&#10;- Если сущность с таким же идентификатором уже существует в контексте персистентности, то она обновляется значениями из переданной сущности.&#10;- Если сущность с таким идентификатором не существует, то создается новая запись в базе данных.&#10;&#10;Пример использования `merge`:&#10;&#10;```java&#10;EntityManager em = entityManagerFactory.createEntityManager();&#10;em.getTransaction().begin();&#10;&#10;MyEntity entity = new MyEntity();&#10;entity.setId(1L);&#10;entity.setName(&quot;Updated Name&quot;);&#10;&#10;MyEntity mergedEntity = em.merge(entity);&#10;&#10;em.getTransaction().commit();&#10;em.close();&#10;```&#10;&#10;### `saveOrUpdate` (Hibernate)&#10;&#10;Метод `saveOrUpdate` используется в Hibernate и выполняет аналогичную функцию. Он либо сохраняет новую сущность, либо обновляет существующую. &#10;&#10;Пример использования `saveOrUpdate`:&#10;&#10;```java&#10;Session session = sessionFactory.openSession();&#10;session.beginTransaction();&#10;&#10;MyEntity entity = new MyEntity();&#10;entity.setId(1L);&#10;entity.setName(&quot;Updated Name&quot;);&#10;&#10;session.saveOrUpdate(entity);&#10;&#10;session.getTransaction().commit();&#10;session.close();&#10;```&#10;&#10;### Основные отличия&#10;&#10;1. **Фреймворк**:&#10;   - `merge` — это метод JPA.&#10;   - `saveOrUpdate` — это метод Hibernate.&#10;&#10;2. **Контекст персистентности**:&#10;   - `merge` возвращает управляемую сущность, которая находится в контексте персистентности. Это означает, что изменения, сделанные в возвращенной сущности, будут автоматически синхронизированы с базой данных.&#10;   - `saveOrUpdate` не возвращает сущность. Он просто сохраняет или обновляет переданную сущность.&#10;&#10;3. **Работа с идентификаторами**:&#10;   - `merge` может работать с сущностями, у которых идентификатор не установлен (новые сущности), и с сущностями, у которых идентификатор установлен (существующие сущности).&#10;   - `saveOrUpdate` требует, чтобы сущность имела установленный идентификатор для обновления. Если идентификатор не установлен, сущность будет сохранена как новая.&#10;&#10;### Пример использования в реальном проекте&#10;&#10;Если у вас есть проект, использующий JPA, и вы хотите обновить или сохранить сущность, вы можете использовать `merge`:&#10;&#10;```java&#10;public void saveOrUpdateEntity(MyEntity entity) {&#10;    EntityManager em = entityManagerFactory.createEntityManager();&#10;    em.getTransaction().begin();&#10;    em.merge(entity);&#10;    em.getTransaction().commit();&#10;    em.close();&#10;}&#10;```&#10;&#10;Если ваш проект использует Hibernate напрямую, вы можете использовать `saveOrUpdate`:&#10;&#10;```java&#10;public void saveOrUpdateEntity(MyEntity entity) {&#10;    Session session = sessionFactory.openSession();&#10;    session.beginTransaction();&#10;    session.saveOrUpdate(entity);&#10;    session.getTransaction().commit();&#10;    session.close();&#10;}&#10;```&#10;&#10;Оба метода полезны для обеспечения того, чтобы сущности были либо сохранены, либо обновлены в базе данных, но выбор метода зависит от используемого вами фреймворка." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718100530401" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="e3fa9a">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="e3fa9a" />
+              <option name="initiateTms" value="1718101510651" />
+              <option name="request" value=" значит не смотря на то,, что метод мердж не изменяет поля в которые не были внесены изменения, ему все-равно необходимо получить все поля для сравнения?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Да, вы правильно поняли. Метод `merge` в JPA требует, чтобы все поля сущности были установлены, даже если они не изменялись. Это связано с тем, что `merge` создает новую сущность, копируя значения из переданной сущности, и затем сравнивает ее с существующей сущностью в базе данных. Если какие-то поля не установлены в переданной сущности, они могут быть перезаписаны значениями по умолчанию (например, `null`).&#10;&#10;### Подробное объяснение&#10;&#10;Когда вы вызываете `merge`, JPA выполняет следующие шаги:&#10;&#10;1. **Создание новой сущности:** JPA создает новую сущность, копируя значения из переданной сущности.&#10;2. **Сравнение с существующей сущностью:** JPA сравнивает новую сущность с существующей сущностью в базе данных.&#10;3. **Обновление полей:** JPA обновляет поля существующей сущности значениями из новой сущности.&#10;&#10;Если какие-то поля не установлены в переданной сущности, они могут быть перезаписаны значениями по умолчанию, что приведет к потере данных.&#10;&#10;### Решение&#10;&#10;Чтобы избежать потери данных, необходимо убедиться, что все поля сущности установлены перед вызовом `merge`. В вашем случае, если вы не хотите передавать поле `createdAt` в DTO, вы можете извлечь существующую сущность из базы данных и сохранить значение `createdAt`.&#10;&#10;### Пример&#10;&#10;#### Обновленный метод `saveOrUpdateEmployee`&#10;&#10;```java&#10;@Override&#10;@Transactional&#10;public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;    Employee employee = toEntity(employeeDTO);&#10;    if (employee.getId() != 0) {&#10;        // Извлекаем существующую сущность из базы данных&#10;        Employee existingEmployee = entityManager.find(Employee.class, employee.getId());&#10;        if (existingEmployee != null) {&#10;            // Сохраняем значение createdAt из существующей сущности&#10;            employee.setCreatedAt(existingEmployee.getCreatedAt());&#10;        }&#10;    }&#10;    enrichEmployee(employee);&#10;    entityManager.merge(employee);&#10;}&#10;```&#10;&#10;### Полный пример&#10;&#10;Вот как будет выглядеть полный класс `EmployeeServiceImpl` и сущность `Employee` после рефакторинга:&#10;&#10;#### Сущность `Employee`&#10;&#10;```java&#10;import javax.persistence.*;&#10;import java.time.LocalDateTime;&#10;&#10;@Entity&#10;@Table(name = &quot;employee&quot;)&#10;public class Employee {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)&#10;    private int id;&#10;&#10;    private String name;&#10;&#10;    private LocalDateTime createdAt;&#10;&#10;    private LocalDateTime updatedAt;&#10;&#10;    // Getters and setters&#10;&#10;    @PrePersist&#10;    protected void onCreate() {&#10;        if (createdAt == null) {&#10;            createdAt = LocalDateTime.now();&#10;        }&#10;    }&#10;&#10;    @PreUpdate&#10;    protected void onUpdate() {&#10;        updatedAt = LocalDateTime.now();&#10;    }&#10;&#10;    // Getters and setters&#10;}&#10;```&#10;&#10;#### Класс `EmployeeServiceImpl`&#10;&#10;```java&#10;package com.zaurtregulov.spring.rest.service;&#10;&#10;import com.zaurtregulov.spring.rest.dao.EmployeeDAO;&#10;import com.zaurtregulov.spring.rest.entity.Employee;&#10;import com.zaurtregulov.spring.rest.dto.EmployeeDTO;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.transaction.annotation.Transactional;&#10;&#10;import javax.persistence.EntityManager;&#10;import java.time.LocalDateTime;&#10;import java.util.List;&#10;&#10;@Service&#10;@Transactional(readOnly = true)&#10;public class EmployeeServiceImpl implements EmployeeService {&#10;&#10;    private final EmployeeDAO employeeDAO;&#10;    private final EntityManager entityManager;&#10;&#10;    @Autowired&#10;    public EmployeeServiceImpl(EmployeeDAO employeeDAO, EntityManager entityManager) {&#10;        this.employeeDAO = employeeDAO;&#10;        this.entityManager = entityManager;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;Employee&gt; getAllEmployees() {&#10;        return employeeDAO.getAllEmployees();&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void saveOrUpdateEmployee(EmployeeDTO employeeDTO) {&#10;        Employee employee = toEntity(employeeDTO);&#10;        if (employee.getId() != 0) {&#10;            // Извлекаем существующую сущность из базы данных&#10;            Employee existingEmployee = entityManager.find(Employee.class, employee.getId());&#10;            if (existingEmployee != null) {&#10;                // Сохраняем значение createdAt из существующей сущности&#10;                employee.setCreatedAt(existingEmployee.getCreatedAt());&#10;            }&#10;        }&#10;        enrichEmployee(employee);&#10;        entityManager.merge(employee);&#10;    }&#10;&#10;    @Override&#10;    public Employee getEmployee(int id) {&#10;        return employeeDAO.getEmployee(id);&#10;    }&#10;&#10;    @Override&#10;    @Transactional&#10;    public void deleteEmployee(int id) {&#10;        employeeDAO.deleteEmployee(id);&#10;    }&#10;&#10;    private void enrichEmployee(Employee employee) {&#10;        if (employee.getId() != 0) {&#10;            employee.setUpdatedAt(LocalDateTime.now());&#10;        }&#10;    }&#10;&#10;    private Employee toEntity(EmployeeDTO dto) {&#10;        Employee employee = new Employee();&#10;        employee.setId(dto.getId());&#10;        employee.setName(dto.getName());&#10;        // Поля createdAt и updatedAt не маппируются из DTO&#10;        return employee;&#10;    }&#10;}&#10;```&#10;&#10;### Заключение&#10;&#10;Метод `merge` требует, чтобы все поля сущности были установлены, даже если они не изменялись. Чтобы избежать потери данных, необходимо извлечь существующую сущность из базы данных и сохранить значение `createdAt` перед вызовом `merge`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1718101585370" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
